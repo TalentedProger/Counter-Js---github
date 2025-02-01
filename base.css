@@ -2,7 +2,6 @@ body {
 	font-family: "Raleway";
 	background: url('./images/background_3.jpg');
 	background-repeat: no-repeat;
-	background-size: cover;
 	color: white;
 	/* background-color: rgba(23, 56, 123, 0.3); */
 }
@@ -16,5 +15,9 @@ body {
 	align-items: center;
 }
 .header {
-	padding-block: 30px ;
+	padding-block: 30px;
+
+	@media (max-width:400px) {
+		padding-block: 15px;
+	}
 }
