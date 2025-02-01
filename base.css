@@ -5,6 +5,10 @@ body {
 	color: white;
 	background-position: center;
 	/* background-color: rgba(23, 56, 123, 0.3); */
+
+	@media (max-width:650px) {
+		background: url('./images/background_phone.jpg');
+	}
 }
 
 .container {
