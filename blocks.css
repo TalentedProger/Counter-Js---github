@@ -36,7 +36,7 @@
 .our-love__title {
 	font-weight: 400;
 	text-wrap: nowrap;
-	letter-spacing: -0.5px;
+	letter-spacing: 0.5px;
 	text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.9);
 
 	@media (max-width:650px) {
@@ -47,7 +47,7 @@
 	font-weight: 300;
 
 	@media (max-width:650px) {
-		font-size: 14px;
+		font-size: 16px;
 	}
 }
 
@@ -68,19 +68,16 @@
 .our-love-time {
 	display: flex;
 	flex-direction: column;
-	gap: 10px;
 	align-items: center;
+	gap: 20px;
 }
+
 .our-love-time__header {
 	text-align: center;
 	backdrop-filter: blur(60px);
 	padding: 5px;
 	border-radius: 5px;
-	margin-bottom: 30px;
-
-	@media (max-width:650px) {
-		margin-bottom: 15px;
-	}
+	margin-bottom: 20px;
 }
 .our-love-time__title {
 	font-family: "Montserrat";
@@ -91,7 +88,7 @@
 	text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.9);
 	font-style: italic;
 
-	@media (max-width:420px) {
+	@media (max-width:440px) {
 		font-size: 18px;
 		padding: 0px;
 	}

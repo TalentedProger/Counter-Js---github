@@ -3,6 +3,7 @@ body {
 	background: url('./images/background_3.jpg');
 	background-repeat: no-repeat;
 	color: white;
+	background-position: center;
 	/* background-color: rgba(23, 56, 123, 0.3); */
 }
 
